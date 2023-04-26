@@ -3,7 +3,6 @@ package com.learntocode;
 public class Book {
     private int id;
     private String isbn; // International book number
-    private String author;
     private String title;
     private boolean isCheckedOut;
     private String checkedOutTo;
@@ -24,14 +23,6 @@ public class Book {
     }
     public void setId(int id) {
         this.id = id;
-    }
-
-    // getters and setters for author
-    public String getAuthor() {
-        return author;
-    }
-    public void setAuthor(String author) {
-        this.author = author;
     }
 
     // getters and setters for title
